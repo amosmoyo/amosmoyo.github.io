@@ -1,0 +1,231 @@
+
+body{
+	background-color:#999;
+	padding:0;
+	margin:0;
+}
+main{
+	width:100%;
+	margin:0;
+	position:relative;
+}
+.navbar{
+	overflow:hidden;
+	background-color:#48D1CC;
+	margin:0;
+	height:63px;
+	padding:0;
+	position:fixed;
+	width:100%;
+	box-shadow:0px 1px 3px 0px white;
+	z-index:1;
+
+}
+.navbar ul{
+	list-style-type:none;
+	margin:8px 0 0 0;
+}
+.navbar a{
+	float:left;
+	padding:14px 15px;
+	color:white;
+	display:block;
+	text-decoration:none;
+}
+.navbar a:hover{
+    text-decoration:none;
+    background-color:white;
+    color:#000;
+}
+.side-nav{
+	background:#444;
+	opacity:0.9;
+	position:fixed;
+	color:red;
+	overflow-x:hidden;
+	height:100%;
+	padding-top:20px;
+	width:0;
+	top:0;
+	left:0;
+	transition:1s;
+	z-index:1;
+}
+.side-nav a{
+	display:block;
+	color:red;
+	text-decoration:none;
+	padding:14px 15px;
+	font-size:20px;
+	font-family:serif;
+	font-weight:bold;
+}
+.side-nav a:hover{
+	background-color:white;
+
+}
+.side-nav .click{
+	float:right;
+	margin-right:5px;
+	font-size:1em;
+}
+section{
+	background-color:#F0F8FF;
+	overflow:hidden;
+	padding-top:45px;
+	margin:0px 5px;
+}
+h1{
+	text-align:center;
+	text-shadow:2px 2px 1px purple, 1px -1px 1px green;
+	color:#000080;
+	padding-top:0px;
+	font-size:2em;
+	margin-top:22px;
+	padding-top:50px;
+	
+}
+#main-head{
+    background-image:url(IMG_20190606_204256_718.jpg);
+    margin-bottom:0px;
+    margin-top:0px;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.home-details{
+	background-color:#AFEEEE;
+}
+.td-data-property{
+	margin-left:3px;
+	margin-right:5px;
+	box-shadow:2px 4px 2px 1px #999,0px -2px 2px 1px #555;
+	margin-bottom: 10px;
+	border-radius:5px;
+	background-color:#fff;
+	position:absolute;
+	top:80px;
+	width:95%;
+	padding-top:20px;
+}
+footer{
+	background-color:#555;
+	text-align:center;
+	color:#fff;
+}
+figcaption{
+	font-style:italic;
+	font-size:0.8em;
+	color:#66CDAA;
+	border-radius:3px;
+	animation-name:caption;
+	animation-delay:.5s;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function:ease-in-out;
+}
+@keyframes caption{
+	0%{background-color:#C71585;}
+	25%{background-color:#FFFF00;}
+	50%{background-color:#ADFF2F;}
+	75%{background-color:#483D8B;}
+	100%{background-color:#FAF0E6;}
+}
+figure{
+	margin-left:10px;
+}
+.chempeg{
+	margin-top:0px;
+}
+table tr td{
+	border:1px solid #fff;
+	border-collapse:collapse;
+}
+table{
+	width:100%;
+	margin-top:5px;
+}
+.highlight{
+	background-color:red !important;
+	color:white;
+}
+.td-data{
+	margin-top:5px;
+	display:grid;
+}
+#output{
+	grid-area:out;
+	background-color:#999;
+	width:100px;
+	box-shadow:2px 2px 1px 1px "#000";
+	border-radius:5px;
+	text-align:center;
+	animation-name:output;
+	animation-delay:.5s;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function:ease-in-out;
+}
+@keyframes output{
+	0%{background-color:#C71585;}
+	25%{background-color:#FFFF00;}
+	50%{background-color:#ADFF2F;}
+	75%{background-color:#483D8B;}
+	100%{background-color:#FAF0E6;}
+}
+.info{
+	margin-bottom:6px;
+	margin-top:4px;
+}
+.close,h3{
+	margin-bottom:3px;
+	margin-top:5px;
+}
+.close{
+	margin-top:4px;
+}
+.table-details{
+	background-image:url(back8.jpeg);
+	background-size:100% 100%;
+}
+#output,#diplay-property{
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.tb-data,.display-info-pro{
+	margin-top:1px;
+	margin-bottom:1px;
+}
+#diplay-property{
+	text-align:center;
+	margin-top:4px; color:#333;
+}
+.table-elements{
+   background-color:#fff;
+}
+#hide-table{
+	width:200px;
+	background-color:white;
+	animation-name:hidee;
+	animation-delay:0s;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	animation-timing-function:ease-in-out;
+	color:#fff;
+}
+@keyframes hidee{
+	0%{background-color:#000;}
+	100%{background-color:#FF0000;}
+}
+.cont{
+  text-decoration:none;
+  color:red;
+}
+.basic{
+	color:#fff;
+}
+.get{
+	text-shadow:4px 4px 4px #66CDAA, -3px -2px 4px #C71585;
+}

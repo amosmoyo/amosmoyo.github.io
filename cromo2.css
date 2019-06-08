@@ -1,0 +1,208 @@
+
+@media screen and (max-width: 600px){
+    .navbar ul{
+      display:none;
+    }
+    td{
+		font-size:.4em;
+		width:30px;
+		height:30px;
+	}
+    .tb-data{
+    	grid-template-columns:1fr 1fr 1fr;
+    	grid-template-areas: 
+    	'... out ... '
+    	grid-gap:3px;
+    	text-align:center;
+    }
+    #main-head{
+    	min-height:500px;
+    }
+    .home-details{
+    	min-height:500px;
+    	font-family:webfont;
+    }
+    .home-details #Introduction{
+    	margin-top:20px; text-align:center; font-size:1.6em; margin-bottom:0px; color:#444;
+    	padding-top:80px;
+    }
+    .home-details .paras{
+   	   margin-left:3px; margin-right:3px;
+   	   background-color:#fff; font-size:1em; color:#333; border-radius:2px;
+    }
+    .table-details{
+    	min-height:500px;
+    }
+    .table-details .get{
+    	padding-top:80px; color:#fff; font-size:1.6em; text-align: center;margin-bottom:10px;
+    }
+    .basic{
+    	margin-left:10px; margin-bottom:10px; color:#fff;
+    }
+    #hide-table{
+    	margin-left:10px;
+    }
+    footer{
+        height:500px;
+    }
+    footer div{
+        margin-top:10px;
+        padding-top:80px;
+    }
+    .td-data-property{
+    	padding-top:30px;
+    	top:105px;
+    }
+    caption{
+    	font-size:0.7em;
+    }
+    #diplay-property{
+    	font-size:0.7em;
+    }    
+
+}
+
+@media screen and (min-width: 600px){
+   .navbar .sidemenu{
+    	display:none;
+    }
+ h1{
+	text-align:center;
+	text-shadow:4px 4px 1px purple, 2px -2px 1px green;
+	color:#000080; padding-top:0px;	font-size:2.3em; margin-top:25px; padding-top:60px;	
+  }
+  img{
+  	width:100px;	height:70px;
+  }
+  figcaption{
+  	font-size:1.2em;
+  }
+  #main-head{
+    	min-height:400px;
+  }
+  figure{
+  	max-width:300px;
+  	margin-left:15px;
+  }
+   caption{
+    	font-size:0.8em;
+    }
+    #diplay-property{
+    	font-size:0.9em;
+    }  
+  .home-details{
+    	min-height:400px;
+    	font-family:webfont;
+   }
+  .home-details #Introduction{
+    	margin-top:20px; color:#444; text-align:center; font-size:1.8em;
+    	padding-top:80px;
+   }
+    .home-details .paras{
+   	   margin-left:14px; margin-right:15px;
+   	   background-color:#fff; font-size:1em; color:#333; border-radius:2px;
+    }
+  .table-details{
+    	min-height:400px;
+   }
+  .table-details .get{
+    	padding-top:80px; color:#fff; font-size:1.8em; text-align: center;margin-bottom:10px;
+   }
+  .basic{
+    	margin-left:10px; margin-bottom:10px; color:#fff;
+    }
+   #hide-table{
+    	margin-left:10px;
+   }
+  td{
+		font-size:.5em;
+		width:50px;
+		height:30px;
+	}
+  footer{
+        height:400px;
+    }
+  footer div{
+        margin-top:10px;
+        padding-top:80px;
+    }
+   .td-data-property{
+    	padding-top:10px;
+    	top:105px;
+    }   	 
+}
+@media screen and (min-width: 768px){
+    section{
+	background-color:#B0E0E6;
+	overflow:hidden;
+	padding-top:45px;
+	margin:0px auto;
+	width:60%;
+	}
+	h1{
+	text-align:center;
+	text-shadow:5px 5px 1px purple, 3px -3px 1px green;
+	color:#000080; padding-top:0px;	font-size:3em; margin-top:25px; padding-top:90px;	
+  }
+  img{
+  	width:150px;	height:100px;
+  }
+  figcaption{
+  	font-size:1.3em;
+  }
+  #main-head{
+    	min-height:490px;
+  }
+  figure{
+  	max-width:300px;
+  	margin-left:20px;
+  }
+  .home-details{
+    	min-height:600px;
+    	font-family:webfont;
+   }
+  .home-details #Introduction{
+    	margin-top:20px;
+    	padding-top:80px;
+    	text-align: center; font-size:2em;
+   }
+   .home-details .paras{
+   	   margin-left:100px; margin-right:100px;
+   	   background-color:#fff; font-size:1.1em;
+   }
+  .td-data-property{
+  	  width:59%;
+  } 
+  .table-details{
+    	min-height:550px;
+   }
+  .table-details .get{
+    	padding-top:80px; font-size:2em; text-align: center;
+   }
+  .details,.basic,#hide-table{
+  	margin-left:20px;
+  	margin-top:10px;
+  }
+  #hide-table{
+  	padding:5px 10px;
+  }
+  td{
+		font-size:.5em;
+		width:50px;
+		height:30px;
+	}
+  footer{
+        height:450px;
+    }
+  footer div{
+        margin-top:10px;
+        padding-top:80px;
+    }	 
+
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 1200px){
+
+}

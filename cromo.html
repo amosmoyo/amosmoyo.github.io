@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CROMOONETAB</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="cromo.css">
+	<link rel="stylesheet" type="text/css" href="cromo2.css">
+</head>
+<body>
+<main>
+	<nav class="navbar">
+		<span class="sidemenu">
+			<a href="#" id="Open">
+				<svg width="30" height="30">
+	                <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+	                <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+	               <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                </svg>
+			</a>
+		</span>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#Home">Introduction</a></li>
+  		    <li><a href="#start">Get Started</a></li>
+  		    <li><a href="#Contacts">Contacts</a></li>
+		</ul>
+	</nav>
+	<div id="side" class="side-nav">
+		<a href="#" class="click" id="Close">&times;Close::Home Pane</a>
+		<a href="#Home" class="clickt">Introduction</a>
+  	    <a href="#start" class="clickt">Get Started</a>
+  		<a href="#Contacts" class="clickt">Contacts</a>
+	</div>
+    <section>
+       <div id="main-head">
+    		<div class="title">
+    			<h1>CROMO-CHEM-ONETAB</h1>
+    		</div>
+          <div  class="chempeg">
+            <figure>
+              <img src="chemical.jpeg" width="50" height="40" alt="periodic table">
+              <figcaption><em>Learn The Periodic Table.</em></figcaption>
+            </figure>
+          </div>
+  		</div>
+       <div class="home-details">
+           <a name="Home"><h2 id="Introduction" class="intro">Introduction</h2></a>
+           <div class="paras">
+             <p class="intro">You think you know the periodic table ? know you dont. if you are a chemistry lover then understanding the Periodic table elements and their property is defintely important. CROMO-CHEM-ONETAB is a simple web app thats provides a mean to understand Chemical  elements and their basic  properties in an easy way.</p>
+             <p class="intro">One the Get Started section,clicks the <br> <span style="color:#fff; background-color:#333;">Dispaly Table</span>  button and start playing around.</p>
+             <p class="intro">The reason I came up with this site is to provide a simple platform thats  allow one to play around and at the same time learning something. Remember click the Dispaly Table button on the Get Started section to start.</p>
+           </div>
+       </div>
+       <div class="table-details">
+         <div style="margin:0px 2px 0px 2px;" class="details">
+           <a name="start"><h3 class="get">Get Started</h3></a>
+           <h3 class="basic" >The Periodic Table for 20 Basic Elements</h3>
+           <button id="hide-table">Hide The Table</button>
+         </div>
+         <div class="table-elements">
+           <table>
+            <caption style="text-align:center;">Click any buttons to Select an Element</caption>
+             <tr>
+               <td style="background-color:green" data-action="Hydrogen">1<br><Strong>H</Strong><br>Hydrogen<br>1</td>
+               <td class="hide"></td>
+               <td class="hide"></td>
+               <td class="hide"></td>
+               <td class="hide"></td>
+               <td class="hide"></td>
+               <td class="hide"></td>
+               <td style="background-color:#DB7093;" data-action="Helium">2 <br><Strong> He</Strong><br> Helium<br>2</td>
+             </tr>
+             <tr>
+               <td style="background-color:#ADFF2F;" data-action="Lithium">3<br><Strong>Li</Strong><br>Lithium<br>2.1</td>
+               <td style="background-color:#B8860B;" data-action="Beryllium">4<br><Strong>Be</Strong><br>Beryllium<br>2.2</td>
+               <td style="background-color:#FFC0CB;" data-action="Boron">5<br><Strong>B</Strong><br>Boron<br>2.3</td>
+               <td style="background-color:#FF1493;" data-action="Carbon">6<br><Strong>C</Strong><br>Carbon<br>2.4</td>
+               <td style="background-color:#E9967A;" data-action="Nitrogen">7<br><Strong>N</Strong><br>Nitrogen<br>2.5</td>
+               <td style="background-color:#008000;" data-action="Oxygen">8<br><Strong>O</Strong><br>Oxygen<br>2.6</td>
+               <td style="background-color:#ADD8E6;" data-action="Fluorine">9<br><Strong>F</Strong><br>Fluorine<br>2.7</td>
+               <td style="background-color:#F0FFF0;" data-action="Neon">10<br><Strong>Ne</Strong><br>Neon<br>2.8</td>
+             </tr>
+             <tr>
+               <td style="background-color:#FFD700;" data-action="Sodium">11<br><strong>Na</strong><br>Sodium<br>2.8.1</td>
+               <td style="background-color:#C0C0C0;" data-action="Magnesium">12<br><strong>Mg</strong><br>Magnesium<br>2.8.2</td>
+               <td style="background-color:#D2691E;" data-action="Aluminium">13<br><strong>Al</strong><br>Aluminium<br>2.8.3</td>
+               <td style="background-color:#FFE4B5;" data-action="Silicon">14<br><strong>Si</strong><br>Silicon<br>2.8.4</td>
+               <td style="background-color:#BDB76B;" data-action="Phosphorus">15<br><strong>P</strong><br>Phosphorus<br>2.8.5</td>
+               <td style="background-color:#FAEBD7;" data-action="Sulphur">16<br><strong>S</strong><br>Sulphur<br>2.8.6</td>
+               <td style="background-color:#B0C4DE;" data-action="Chlorine">17<br><strong>Cl</strong><br>Chlorine<br>2.8.7</td>
+               <td style="background-color:#9932CC;" data-action="Argon">18<br><strong>Ar</strong><br>Argon<br>2.8.8</td>
+             </tr>
+             <tr>
+               <td style="background-color:#D2691E;" data-action="Potassium">19<br><strong>K</strong><br>Potassium<br>2.8.8.1</td>
+               <td style="background-color:yellow;" data-action="Calcium">20<br><strong>Ca</strong><br>Calcium<br>2.8.8.2</td>
+             </tr>
+           </table>
+         </div>
+         <div class="td-data">
+             <p id="output"></p>
+          </div>
+          <div class="display-info-pro">
+            <p id="diplay-property">Click to dispaly all properties</p>
+          </div>
+       </div>
+       <div class="td-data-property">
+          <a href="#start"><input type="button" name="td-data-property" value='&times; Close The Properties Pane' class="close" style="margin-left:3px; background-color:red;"></a>
+          <h3 style="color:#DB7093; margin-left:3px;">Basic Properties</h3>
+          <div class="td-data-para">
+           <p class="info"><strong>Name: </strong><input type="button" value="" class="order" data-info = 'Name'></p>
+           <p class="info"><strong>Atomic Number: </strong><input type="button" value="" class="order" data-info = 'Atomic'></p>
+           <p class="info"><strong>Electronic Configuration: </strong><input type="button" value="" class="order" data-info = 'Electonic'></p>
+           <p class="info"><strong>Valency: </strong><input type="button" value="" class="order" data-info = 'Valency'></p>
+           <p class="info"><strong>Type: </strong><input type="button" value="" class="order" data-info = 'Type'></p>
+           <p class="info"><strong>Oxidation Number: </strong><input type="button" value="" class="order" data-info = 'Oxidation'></p>
+           <p class="info"><strong>Group: </strong><input type="button" value="" class="order" data-info = 'Group'></p>
+           <p class="info"><strong>Chemical Family:</strong><input type="button" value="" class="order" data-info = 'Family'></p>
+          <p class="info"><strong>Atomic Radii:</strong><input type="button" value="" class="order" data-info = 'AtomicAdIonic'></p>
+          </div>
+       </div> 
+       <footer>
+          <div class="footer">
+            <p>&copy; amosmoyocromoonetab</a></p>
+            <time date='2019-05-30'>May 30, 2019</time>
+            <p>Emails <a href="amosmoyo5300@gmail.com" class="cont">amosmoyo5300@gmail.com</a></p>
+            <a name="Contacts"><p>Contacts: +254710510906</p></a>
+          </div> 
+       </footer>
+    </section>
+</main>
+</body>
+<script type="text/javascript" src="cromo.js"></script>
+</html>
